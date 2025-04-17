@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/*p{*/
+/*    font-family: Av ;*/
+/*}*/
+.meddon-regular {
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.oswald-300 {
+    font-family: "Oswald", sans-serif;
+    /*font-optical-sizing: auto;*/
+    /*font-weight: 300;*/
+    /*font-style: normal;*/
+}

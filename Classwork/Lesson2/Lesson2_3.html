@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>teh_div&flex_div</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+        }
+        .boxes{
+            width: 200px;
+            height: 200px;
+            /*margin: 0 10px;*/
+        }
+        .red{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        .red p{
+            /*text-align: center;*/
+        }
+        .red img{
+            width: 50%;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+           background-color: green;
+        }
+        .flex{
+            height: 100%;
+            /*ширину можна не задавати*/
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="boxes red">
+        <p>червона спека</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDg7Dp-Bbi51FxUviqMbqe-zhU6_1TxsY58w&s" alt="apple">
+    </div>
+    <div class="boxes yellow"></div>
+    <div class="boxes green"></div>
+</div>
+</body>
+</html>
