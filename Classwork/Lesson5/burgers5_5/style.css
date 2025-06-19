@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:opsz@14..32&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E1E1E;
+}
+.w_1340{
+    width: 1340px;
+    margin: 0 auto;
+
+}
+nav{
+    padding-top: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 59px;
+}
+ul a{
+    color: #E9E3DC;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /*17.44px;*/
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav__active-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    background-color: #b3a0cd;
+    height: 60px;
+    color: #1e1e1e;
+}
+/*+++++++++++++++++++++++++H1++++++++++++++++++++++++++++++*/
+.header_title{
+    width: 1255px;
+    position: relative;
+    font-size: 107.09px;
+    letter-spacing: -0.02em;
+    line-height: 88.9%;
+    text-transform: uppercase;
+    font-family: 'Bowlby One',sans-serif;
+    color: #e9e3dc;
+    text-align: center;
+    display: inline-block;
+    margin: 72px auto 33px auto;
+}
+.img_header{
+    margin: 0 auto;
+    display: block;
+
+
+
+}

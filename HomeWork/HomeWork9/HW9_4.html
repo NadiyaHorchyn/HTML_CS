@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MacBook Pro 16" - 11</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1.5fr 1fr;
+            grid-template-rows: 0.5fr 5fr 4fr 0.8fr 1fr;
+            grid-template-areas:
+            "header header"
+            "main aside-bootom"
+            "main aside-top"
+            "section section"
+            "footer footer"
+        ;
+        }
+        .grid header{
+            grid-area: header;
+            background: #D9D9D9;
+        }
+        .grid main{
+            grid-area: main;
+            background: #A4A4A4;
+        }
+        .grid aside:nth-child(3){
+            grid-area: aside-bootom;
+            background: #7F7A7A;
+        }
+        .grid aside:nth-child(4){
+            grid-area: aside-top;
+            background: #615050;
+        }
+        .grid section{
+            grid-area: section;
+            background: #D9D9D9;
+        }
+        .grid footer{
+            grid-area: footer;
+            background: #AFA9A9;
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <header></header>
+    <main></main>
+    <aside></aside>
+    <aside></aside>
+    <section></section>
+    <footer></footer>
+</div>
+</body>
+</html>

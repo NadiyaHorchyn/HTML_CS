@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*++++++++++++++++++Header++++++++++++++++++++++++++++*/
+.active-link{
+    color: #537161;
+}
+header{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-family: "Orbitron", sans-serif;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav a{
+    color: gray;
+    font-size: 20px;
+}
+/*/+++++++++++++++++++Main+++++++++++++++++++++++++++++++++/*/
+main{
+    height: 90vh;
+    background-image: url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 50px;
+}
+main p{
+    font-size: 20px;
+}
+main h1{
+    font-size: 80px;
+    letter-spacing: 30px;
+}
+main button{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+main button:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: #537161;
+}
+/*++++++______contact_+_+++__++*/
+.contact{
+    height: 60vh;
+    background: url('https://waytravel.com.ua/wp-content/uploads/2024/06/hora-khomiak-zymoiu.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 50px;
+}
+footer{
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.contact_footer{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    flex-wrap: wrap;
+    }
+.contact_footer h3{
+    font-size: 20px;
+    padding: 10px;
+}
+.contact_footer p {
+    font-size: 15px;
+    padding: 10px;
+}
+.contact_footer button{
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 2s;
+}
+.contact_footer img {
+    width: 55%;
+    display: flex;
+
+
+}
+/*_+_+_+_+_+_service_____+++_+_+*/
+.zagolovok_service {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.zagolovok_service h3{
+    font-size:40px;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+.zagolovok_service h2{
+    font-size: 28px;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+.service{
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Orbitron", sans-serif;
+    gap: 2%;
+    margin: 20px ;
+    overflow: scroll;
+}
+.services{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: scroll;
+}
+.services h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+.services p{
+    font-size: 15px;
+    padding: 10px;
+
+}
+.services img{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+}
+.services button{
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 2s;
+
+}
+
+/*_+_+_+_+_+_+_+_section blog+++_______*/
+.zagolovok_blog{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.zagolovok_blog h3{
+    font-size:40px;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+.zagolovok_blog h2{
+    font-size: 28px;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+.blog{
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Orbitron", sans-serif;
+    gap: 2%;
+    margin: 20px ;
+    overflow: scroll;
+}
+.blogs{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: scroll;
+}
+.blogs h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+.blogs p{
+    font-size: 18px;
+    padding: 10px;
+
+}
+.blogs img{
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    display: flex;
+}
+
+/*_+_++_++__++++article about_+_+_++_+++*/
+article{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding: 30px;
+}
+.about-all{
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+.about-all h3{
+    font-size: 40px;
+    padding: 15px;
+}
+.about-all p{
+    font-size: 25px;
+    padding: 10px;
+}
+.about-all p span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.about-all h3 {
+    font-size: 40px;
+    padding: 15px;
+}
+.about p {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.about img {
+    width: 100%;
+    display: flex;
+}
+/*_+_+_+_+_+_+Location_+_+_+_*/
+.location1 h3{
+    font-size:40px;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+.location1 h2{
+    font-size: 28px;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+.location{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+.location iframe{
+    width: 100%;
+    height: 80vh;
+    margin: 20px ;
+
+}

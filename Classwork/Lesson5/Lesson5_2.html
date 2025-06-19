@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <style>
+        .pink_box{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto 0 auto;
+            animation: lorem 5s linear infinite alternate;
+        }
+        @keyframes lorem {
+            from{
+                transform:  scale(1.5) rotate(20deg) skew(80deg);
+            }
+            40%{
+                border: 10px solid lightblue;
+                border-radius: 20%;
+                transform: rotate(60deg);
+            }
+            50%{
+                transform: skew(0deg);
+            }
+            to{
+                transform: scale(1) rotate(0deg);
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="pink_box"></div>
+</body>
+</html>
