@@ -5,19 +5,30 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #1E1E1E;
+    height: 3004px;
+
+
+
 }
 .w_1340{
-    width: 1340px;
+    width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #1E1E1E;
+}
+/*+++++++++++++++++++++++++H1++++++++++++++++++++++++++++++*/
+header{
+
+    height: 911px;
+
 }
 nav{
     width: 100%;
     padding-top: 36px;
+    padding-right: 51px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -48,7 +59,7 @@ ul a{
     height: 60px;
     color: #1e1e1e;
 }
-/*+++++++++++++++++++++++++H1++++++++++++++++++++++++++++++*/
+
 .header_title{
     width: 1255px;
     position: relative;
@@ -65,6 +76,11 @@ ul a{
 .img_header{
     margin: 0 auto;
     display: block;
+    padding-bottom: 32px;
+}
+/*__+_+_+_+_+_+_+_Main+_+_+_+_+*/
+main{
+    height: 1753px;
 }
 .section__about-burger{
     width: 1340px;
@@ -75,7 +91,7 @@ ul a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+     gap: 28px;
 }
 .section__about-burger h2{
     width: 533px;
@@ -118,8 +134,13 @@ ul a{
     width: 100%;
     padding: 64px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
+}
+  /*_+_+_+_+_+_+_+footer_+_+_+_+_+_+*/
+footer{
+    height: 299px;
 }
 .h-order-outline{
     color: #E9E3DC;

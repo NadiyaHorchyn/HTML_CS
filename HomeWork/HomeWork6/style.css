@@ -31,7 +31,7 @@ label {
 .login img{
     width: 80%;
     }
-input[type="text"],
+input[type="email"],
 input[type="password"]{
     width: 78%;
     padding: 3% 1%;

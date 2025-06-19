@@ -1,9 +1,17 @@
-@media  screen and (min-width: 769px) and (max-width: 1279px ){
-/*.items{*/
-/*    width: 720px;*/
-/*}*/
-/*    .item{*/
-/*        width: 218px;*/
-/*    }*/
+@media  screen and (min-width: 654px) and (max-width: 768px ){
+.items{
+    width: 768px;
+    padding: 24px 32px;
+    flex-wrap: wrap;
+
+}
+    .item{
+        width: 219px;
+        height: 263px;
+    }
+    .item img{
+        width: 100%;
+        height: 164px;
+    }
 
 }

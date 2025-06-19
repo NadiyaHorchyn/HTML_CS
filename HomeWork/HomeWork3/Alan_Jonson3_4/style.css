@@ -14,9 +14,10 @@ header{
     height: 10vh;
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     font-family: "Orbitron", sans-serif;
+    padding-top: 10px ;
 }
 header div{
     text-align: center;
